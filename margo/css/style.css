@@ -219,7 +219,7 @@ input[type="radio"].visually-hidden {
 	align-items: center;
 	margin-bottom: 20px;
 }
-.navigation__panel-item {
+.navigation__panel-item:not(:last-child) {
 	position: relative;
 	margin-right: 50px;
 }
