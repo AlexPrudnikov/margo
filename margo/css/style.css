@@ -219,9 +219,12 @@ input[type="radio"].visually-hidden {
 	align-items: center;
 	margin-bottom: 20px;
 }
-.navigation__panel-item:not(:last-child) {
+.navigation__panel-item {
 	position: relative;
 	margin-right: 50px;
+}
+.navigation__panel-item--last {
+	margin-right: 0;
 }
 .navigation__panel-link {
 	color: #f4f5f5;
