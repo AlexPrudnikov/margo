@@ -119,16 +119,16 @@ input[type="radio"].visually-hidden {
 	height: 35px;
 }
 .header__logo-content {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10px;
 	margin: 0;
-	padding-top: 3px;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 10px;
-	font-family: "SegoeUI";
-	color: #373737;
-	font-weight: bold;
-	line-height: 1.6;
-	letter-spacing: 1.1px;
+    margin-top: 8px;
+    padding-right: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #373737;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 .header__logo-content::after,
 .header__logo-content::before {
@@ -306,6 +306,30 @@ input[type="radio"].visually-hidden {
 }
 
 /* Slider */
+.product-slider-wrapper-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-130%);
+	width: 30px;
+	height: 70px;
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+}
+.product-slider-wrapper-btnprev {
+	left: -40px;
+}
+.product-slider-wrapper-btnright {
+	right: -20px;
+}
+.product-slider-wrapper-btnprev img,
+.product-slider-wrapper-btnright img {
+	width: 18px;
+	height: 65px;
+}
+
 .product-slider {
 	margin-bottom: 60px;
 }
@@ -487,27 +511,4 @@ input[type="radio"].visually-hidden {
 	width: 100%;
 	padding: 17px 0 0 6px;
 	border-top: 1px solid #e2e2e2;
-}
-.product-slider-wrapper-btn {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-130%);
-	width: 30px;
-	height: 70px;
-	background-color: transparent;
-	border: none;
-	margin: 0;
-	padding: 0;
-	z-index: 5;
-}
-.product-slider-wrapper-btnprev {
-	left: -40px;
-}
-.product-slider-wrapper-btnright {
-	right: -20px;
-}
-.product-slider-wrapper-btnprev img,
-.product-slider-wrapper-btnright img {
-	width: 18px;
-	height: 65px;
 }
