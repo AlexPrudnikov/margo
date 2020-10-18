@@ -321,6 +321,7 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding: 0;
 	z-index: 5;
+	cursor: pointer;
 }
 .product-slider-wrapper-btnprev {
 	left: -40px;
