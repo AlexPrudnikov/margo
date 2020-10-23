@@ -486,22 +486,22 @@ input[type="radio"].visually-hidden {
 }
 
 /* cocials */
-.footer__cocials {
+.footer__socials {
 	display: flex;
 }
-.footer__cocials-item:not(:last-child) {
+.footer__socials-item:not(:last-child) {
 	margin-right: 5px;
 }
-.footer__cocials-item--facebook {
+.footer__socials-item--facebook {
 	content: url('../images/content/facebook.png');
 }
-.footer__cocials-item--google {
+.footer__socials-item--google {
 	content: url('../images/content/google.png');
 }
-.footer__cocials-item--pinterest {
+.footer__socials-item--pinterest {
 	content: url('../images/content/pinterest.png');
 }
-.footer__cocials-item--twitter {
+.footer__socials-item--twitter {
 	content: url('../images/content/twitter.png');
 }
 
